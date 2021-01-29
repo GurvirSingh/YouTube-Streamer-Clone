@@ -10,30 +10,6 @@ import './components/YoutubeHome.css';
 import YoutubeHome from './components/YoutubeHome';
 import GoogleAuth from './components/GoogleAuth';
 
-const items = [
-    {
-        title: 'What is React?',
-        content: 'React is a front-end JavaScript framework'
-    },
-    {
-        title: 'Why use React?',
-        content: 'React is the favourite JS library among engineers!'
-    },
-    {
-        title: 'How do you use React?',
-        content: 'You use React by creating components'
-    }
-]
-
-const options = [
-    {
-        label: 'Green', value: 'green'
-    }, {
-        label: 'Red', value: 'red'
-    }, {
-        label: 'Blue', value: 'blue'
-    }];
-
 export default () => {
     const [selected, setSelected] = useState(options[0]);
 
