@@ -1,4 +1,5 @@
 import React from 'react';
+import GoogleAuth from './GoogleAuth';
 import Link from './Link'
 
 const Header = () => {
@@ -8,7 +9,13 @@ const Header = () => {
             <Link href="/list" className="item">Wiki Search</Link>
             <Link href="/dropdown" className="item">Dropdown</Link>
 
-            <GoogleAuth />
+            <div className="right menu">
+                    {/* <Link to='/' className="item">
+                        
+                    </Link> */}
+
+                    <GoogleAuth />
+                </div>
         </div>
     );
 };
